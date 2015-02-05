@@ -1,0 +1,20 @@
+/* css external style sheet*/
+
+body {
+    background: url("http://wfiles.brothersoft.com/c/cat-photograph_195926-1280x720.jpg");
+    font-size: 25px;
+    color: Green;
+}
+h1 {
+    color: Grey;
+    margin-left: 40px;
+}
+
+table,th,td {
+    width: 70%;
+    border: 1px solid black
+}
+
+th {
+    height: 50px;
+}
