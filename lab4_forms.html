@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="lab4.css">
 <head lang="en">
+
     <meta charset="UTF-8">
     <title>My form</title>
 </head>
 <body>
     <form action ="form.html" method ="get">
           <fieldset>
-              <legend> Account </legend>
-              <label class ="field" for "name"> Name:</label><input type ="text" name ="name" class ="textbox-300"/>
-              <label class ="field" for "dateofbirth"> Dob:</label><input type ="text" name ="Date" class ="textbox-300"/>
-              <label class ="field" for "email"> Email:</label><input type ="text" name ="email" class ="textbox-300"/>
+              <h2 class ="Form"> Form</h2>
+<!--
+              <label class ="field" for "name"> Name:</label>
+                <input type ="text" name ="name" class ="textbox-300"/><br>
+
+              <label class ="field" for "dateofbirth"> Dob:</label>
+                <input type ="text" name ="Date" class ="textbox-300"/><br>
+
+              <label class ="field" for "email"> Email:</label>
+                <input type ="text" name ="email" class ="textbox-300"/><br>
+
+            -->
+
+
+              Name:<input type="text" required=""> <mark>*</mark> <br>
+               AGE:<input type="text" required=""> <mark>*</mark> <br>
+               DOB:<input type="text" required=""> <mark>*</mark> <br>
+
+
+              <label> Comment</label>  <textarea cols ="40"></textarea><br>
+              </label>
+              <input type="radio" name="sex" value="male" checked required="">Male<br>
+
+                <input type="radio" name="sex" value="female" required="">Female<br>
+            <br><br><br>
+              <input type="submit">  <input type= reset value="Reset ">
           </fieldset>
 
     </form>
