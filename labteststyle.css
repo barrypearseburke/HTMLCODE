@@ -1,0 +1,32 @@
+/*top nav bar*/
+.navbar ul {
+width:100%;
+margin:0 auto 0 auto;
+    text-align: center;
+}
+
+.navbar ul li {
+float:left;
+color:#CC0000;
+    padding-top: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10;
+    border-right:1px solid #a2F;
+
+border-left:1px solid #F1F;
+height:40px;
+list-style:none;
+display:block;
+line-height:40px;
+text-align:center;
+cursor:pointer;
+background-color: #0033cc;
+}
+
+/*when the user hovers over item*/
+.navbar ul li:hover {
+background-color:#CC3;
+}
+
+/* top bar over */

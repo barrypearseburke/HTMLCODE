@@ -1,0 +1,29 @@
+div.bar img{
+    margin-left:auto ;
+    margin-right: auto;
+    position: absolute;
+    left: 0%;
+    right: 17%;
+    width: 63%;
+    height:30px;
+}
+div.search{
+    position: absolute;left:73%;
+    top:2%;
+
+}
+
+div.header img{
+    position: absolute;
+    top: 5.5%;
+    left: 10%;
+
+    right: 10%;
+    width: 80%;
+    height: 200px;
+}
+body
+{
+
+    background-color: lightgray;
+}
